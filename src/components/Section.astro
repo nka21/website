@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets';
+import tripalImage from '../images/tripal.png';
+---
+<!-- 全体ブロック -->
+<div class="md:flex my-32 lg:my-36 mx-32 justify-center">
+  <!-- detailsブロック -->
+  <div class="flex justify-center items-center mr-auto">
+    <div class="rounded-lg shadow-sm">
+      <div class="flex flex-col space-y-1.5 gap-y-2">
+        <span class="text-sm font-semibold tracking-wide">No. 1</span>
+        <h3 class="tracking-tight text-3xl font-medium">TriPal</h3>
+      </div>
+      <div class="mt-8">
+        <div class="flex">
+          <div
+            class="bg-slate-300 inline-flex items-center border px-2 py-1 mr-2.5 text-xs font-semibold border-transparent">
+            チーム開発
+          </div>
+          <div
+            class="bg-slate-300 inline-flex items-center border px-2 py-1 mr-2.5 text-xs font-semibold border-transparent">
+            フロントエンド
+          </div>
+          <div
+            class="bg-slate-300 inline-flex items-center border px-2 py-1 mr-2.5 text-xs font-semibold border-transparent">
+            生成AI
+          </div>
+        </div>
+        <p class="mt-6 text-sm text-black">
+          旅行支援生成AIサービス<br>旅行計画提案から旅行を楽しめることまで
+        </p>
+      </div>
+      <div class="flex items-center mt-6">
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">
+        <a href="https://tripal-ca.greenbay-9762fead.japaneast.azurecontainerapps.io/" target="_blank">View Project</a></button>
+      </div>
+    </div>
+  </div>
+  <!-- 画像ブロック -->
+  <div class="flex">
+    <Image src={tripalImage} alt="画像"  class="2xl:max-w-screen-lg xl:max-w-screen-md rounded-xl"/>
+  </div>
+</div>

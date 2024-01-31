@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import HomeHeader from '../components/HomeHeader.astro';
+import Section from '../components/Section.astro';
+---
+
+<Layout title="Home">
+	<div class="w-full h-full bg-img bg-no-repeat bg-cover font-Inter">
+		<Header />
+		<main class="">
+			<HomeHeader />
+			<Section />
+		</main>
+		<Footer />
+	</div>
+</Layout>

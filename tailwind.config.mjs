@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        img: "url('/src/images/bg_img.png')",
+        img: "url('/src/images/bg_texture_180.png')",
       }),
       colors: {
         white: "#f2f3f4",

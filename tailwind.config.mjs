@@ -16,6 +16,7 @@ export default {
     },
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
+      Caveat: ["Caveat", "cursive"],
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
